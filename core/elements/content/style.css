@@ -1,0 +1,232 @@
+/****************************************************
+
+        Development by wencms@gmail.com
+
+****************************************************/
+
+/**** content 1 ****/
+
+.content-1 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 400px;
+    
+    background-color: #fff;
+    
+    color: #383838;
+    
+}
+
+.content-1 > .info {
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 5%;
+    
+    width: 40%;
+    
+    height: 250px;
+    
+    margin-top: -125px;
+    
+}
+
+.content-1 > .info > .title {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: auto;
+    
+    font-size: 20px;
+    
+    margin-bottom: 20px;
+    
+}
+
+.content-1 > .video {
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    right: 5%;
+    
+    width: 45%;
+    
+    height: 300px;
+    
+    margin-top: -150px;
+    
+}
+
+/**** content 2 ****/
+
+.content-2 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 400px;
+    
+    background-color: #fff;
+    
+    color: #383838;
+    
+}
+
+.content-2 > .info {
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 5%;
+    
+    width: 40%;
+    
+    height: 250px;
+    
+    margin-top: -125px;
+    
+}
+
+.content-2 > .info > .title {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: auto;
+    
+    font-size: 20px;
+    
+    margin-bottom: 20px;
+    
+}
+
+.content-2 > .info > .buttons {
+    
+    margin-top: 20px;
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: auto;
+    
+}
+
+.content-2 > .info > .buttons > .btn {
+    
+    float: left;
+    
+    width: 230px;
+    
+    height: 30px;
+    
+    border-radius: 5px;
+    
+    background-color: #00BE61;
+    
+    color: #ffffff;
+    
+    text-align: center;
+    
+    margin-right: 20px;
+
+}
+
+.content-2 > .info > .buttons > .btn > .text {
+    
+    margin-top: 5px;
+    
+}
+
+.content-2 > .info > .buttons > .btn:hover {
+    
+    background-color: #00BE00;
+    
+}
+
+.content-2 > .video {
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    right: 5%;
+    
+    width: 45%;
+    
+    height: 300px;
+    
+    margin-top: -150px;
+    
+}
+
+/**** content 3 ****/
+
+.content-3 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 200px;
+    
+    background-color: #fff;
+    
+    color: #383838;
+    
+}
+
+.content-3 > .cons {
+    
+    padding-top: 50px;
+    
+    width: 100%;
+    
+    height: auto;
+    
+}
+
+.content-3 > .cons > .cn {
+    
+    float: left;
+    
+    width: 30%;
+    
+    height: auto;
+    
+    margin-right: 5%;
+    
+}
+
+.content-3 > .cons > .right {
+    
+    margin-right: -5%;
+    
+}
+
+.content-3 > .cons > .cn > .title {
+    
+    text-align: center;
+    
+    margin-bottom: 20px;
+}
+
+.content-3 > .cons > .cn > .text {
+    
+    width: 80%;
+    
+    margin-left: 10%;
+    
+}

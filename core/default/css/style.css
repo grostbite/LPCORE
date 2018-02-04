@@ -1,0 +1,869 @@
+/****************************************************
+
+        Development by wencms@gmail.com
+
+****************************************************/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+body {
+    margin: 0 auto;
+    background-image: url(../img/donate.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+.start {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.start > .block {
+    float: left;
+    width: 50%;
+}
+.start > .block > .text {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #fff;
+}
+.start > .block > .notif {
+    position: absolute;
+    margin-top: 20px;
+    color: #fff;
+    text-align: right;
+    right: 340px;
+}
+.start > .block > .button {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    background-color: #00796B;
+}
+@media screen and (max-width: 1024px) {} @media screen and (max-width: 768px) {
+    .start > .block > .notif {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .start > .block {
+        width: 100%;
+        text-align: center;
+    }
+    .start > .block > .text {
+        margin-left: 0px;
+    }
+    .start > .block > .button {
+        display: none;
+    }
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+}
+.header > .menu {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    height: auto;
+    margin-left: -600px;
+}
+.header > .menu > .logo {
+    padding: 20px;
+    font-size: 30px;
+    color: #212121;
+    text-shadow: 1px 1px 2px #fff;
+}
+.header > .panel {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.header > .panel > .left {
+    float: left;
+    width: 40%;
+}
+.header > .panel > .left > .name {
+    font-size: 45px;
+    color: #313131;
+    margin-left: 5%;
+    margin-top: 10px;
+    line-height: 50px;
+    text-shadow: 1px 1px 2px #fff;
+}
+.header > .panel > .left > .text {
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 5%;
+    text-shadow: 1px 1px 2px #fff;
+}
+.header > .panel > .left > .button {
+    border-radius: 3px;
+    padding: 15px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5%;
+    color: #fff;
+    background-color: #00796B;
+}
+.header > .panel > .right {
+    float: left;
+    width: 60%;
+}
+.header > .panel > .right > .image {
+    position: absolute;
+    margin-left: 5%;
+    width: 50%;
+    height: 400px;
+    background-color: #00796B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1024px) {
+    .header > .panel {
+        width: 900px;
+        left: 50%;
+        margin-left: -450px;
+    }
+    .header > .menu {
+        width: 900px;
+        left: 50%;
+        margin-left: -450px;
+    }
+    .header > .panel > .left {
+        width: 100%;
+    }
+    .header > .panel > .right {
+        display: none;
+    }
+    .header > .panel > .left > .name {
+        margin-top: 70px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .header > .panel > .left > .text {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    .header > .panel > .left > .button {
+        margin-left: 0px;
+        position: relative;
+        left: 50%;
+        margin-left: -192.5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+    .header > .menu {
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header {
+        height: 750px;
+    }
+    .header > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .header > .menu {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .header > .panel > .left > .button {
+        position: absolute;
+        left: 0px;
+        margin-left: 0px;
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .header > .panel > .left > .name {
+        font-size: 30px;
+    }
+}
+.about {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background-color: #fff;
+}
+.about > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.about > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.about > .panel > .text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.about > .image {
+    position: absolute;
+    background-image: url(../img/mac-bg.png);
+    width: 800px;
+    height: 457px;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -400px;
+}
+@media screen and (max-width: 1024px) {
+    .about {
+        height: 730px;
+    }
+    .about > .panel {
+        width: 900px;
+        margin-left: -450px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about {
+        height: 670px;
+    }
+    .about > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+    .about > .image {
+        width: 700px;
+        height: 400px;
+        margin-left: -350px;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about {
+        height: 600px;
+    }
+    .about > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .about > .panel > .name {
+        font-size: 30px;
+    }
+    .about > .image {
+        width: 300px;
+        height: 171px;
+        margin-left: -150px;
+    }
+}
+.blocks {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background-color: #00796B;
+}
+.blocks > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.blocks > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+.blocks > .panel > .text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.blocks > .panel > .image {
+    margin-top: 40px;
+    position: relative;
+    width: 570px;
+    height: auto;
+    left: 50%;
+    margin-left: -285px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1024px) {
+    .blocks > .panel {
+        width: 1000px;
+        margin-left: -500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .blocks > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .blocks {
+        height: 900px;
+    }
+    .blocks > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .blocks > .panel > .name {
+        font-size: 30px;
+    }
+    .blocks > .panel > .image {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+    }
+}
+.services {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+.services > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.services > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.services > .panel > .text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.services > .panel > .image {
+    margin-top: 30px;
+    background-image: url(../img/services.png);
+    width: 1200px;
+    height: 253px;
+    background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+    .services > .panel {
+        width: 1000px;
+        margin-left: -500px;
+    }
+    .services > .panel > .image {
+        width: 1000px;
+        height: 211px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .services {
+        height: 420px;
+    }
+    .services > .panel {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+    }
+    .services > .panel > .image {
+        width: 100%;
+        height: 158px;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 480px) {
+    .services {
+        height: 360px;
+    }
+    .services > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .services > .panel > .name {
+        font-size: 30px;
+    }
+    .services > .panel > .image {
+        width: 100%;
+        height: 63px;
+    }
+}
+.control {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #F8F8F8;
+}
+.control > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.control > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.control > .panel > .text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.control > .image {
+    position: absolute;
+    bottom: 0px;
+    background-image: url(../img/browser-mockup.png);
+    width: 900px;
+    height: 400px;
+    left: 50%;
+    margin-left: -450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1024px) {
+    .control > .panel {
+        width: 1000px;
+        margin-left: -500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .control {
+        position: relative;
+        width: 100%;
+        height: 540px;
+        background-color: #F8F8F8;
+    }
+    .control > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+    .control > .image {
+        background-size: cover;
+        width: 700px;
+        height: 312px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .control {
+        height: 480px;
+    }
+    .control > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+    .control > .panel > .name {
+        font-size: 30px;
+    }
+    .control > .image {
+        width: 320px;
+        height: 143px;
+        margin-left: -160px;
+    }
+}
+.donate {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.donate > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.donate > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+.donate > .panel > .text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.donate > .panel > .price {
+    position: relative;
+    left: 50%;
+    width: 250px;
+    margin-top: 50px;
+    font-size: 90px;
+    color: #fff;
+    margin-left: -115px;
+	font-family: 'PT Sans', serif;
+}
+.donate > .panel > .price > input {
+    background: transparent;
+    border: none;
+    font-size: 90px;
+    width: 160px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: right;
+}
+.donate > .panel > .button {
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 50%;
+    margin-left: -150px;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+    .donate > .panel {
+        width: 1000px;
+        margin-left: -500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .donate > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .donate {
+        height: 550px;
+    }
+    .donate > .panel > .name {
+        font-size: 30px;
+    }
+    .donate > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #212121;
+}
+.footer > .panel {
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+.footer > .panel > .text {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #E1E1E1;
+}
+.footer > .panel > .contact {
+    padding-top: 10px;
+    color: #777777;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    .footer > .panel {
+        width: 1000px;
+        margin-left: -500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+}
+.new {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    background-color: #fff;
+}
+.new > .panel {
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+}
+.new > .panel > form > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.new > .panel > form > .text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.new > .panel > form > .form {
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    height: auto;
+}
+.new > .panel > form > .form > .input {
+    margin-bottom: 20px;
+}
+.new > .panel > form > .form > .input > input {
+	width: 100%;
+    height: 50px;
+	font-size: 16px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+}
+.new > .panel > form > .form > .button {
+    width: 100%;
+	border-radius: 3px;
+    padding: 15px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    color: #fff;
+    background-color: #00796B;
+    text-align: center;
+    cursor: pointer;
+}
+.new > .panel > form > .private {
+	margin-top: 20px;
+}
+.new > .panel > form > .private > .text {
+    text-align: center;
+}
+.new > .panel > form > .private > .text > a {
+    text-decoration: none;
+    color: #00796B;
+}
+@media screen and (max-width: 1024px) {
+    
+    .new > .panel {
+        width: 900px;
+        margin-left: -450px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    
+    .new > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    
+    .new {
+        height: 730px;
+    }
+    
+    .new > .panel {
+        width: 300px;
+        margin-left: -150px;
+    }
+    
+    .new > .panel > .form {
+        margin-left: -150px;
+        width: 300px;
+    }
+
+}
+.rules {
+    position: relative;
+    width: 100%;
+    height: 5100px;
+    background-color: #fff;
+}
+.rules > .panel {
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+}
+.rules > .panel > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.rules > .panel > .rule {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.rules > .panel > .rule > .name {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.rules > .panel > .rule > .text {
+    font-size: 17px;
+}
+@media screen and (max-width: 1024px) {
+    .rules {
+        height: 6150px;
+    }
+    .rules > .panel {
+        width: 900px;
+        margin-left: -450px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rules {
+        height: 7500px;
+    }
+    .rules > .panel {
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .rules {
+        height: 17300px;
+    }
+    .rules > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+}
+.manager_add {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+.manager_add > .panel {
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+}
+.manager_add > .panel > form > .name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.manager_add > .panel > form > .text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.manager_add > .panel > form > .form {
+    margin-top: 10px;
+}
+.manager_add > .panel > form > .form > .text {
+    font-size: 20px;
+    margin-left: 3px;
+}
+.manager_add > .panel > form > .form > .input {
+    margin-top: 10px;
+}
+.manager_add > .panel > form > .form > .input > input {
+	width: 100%;
+    height: 50px;
+	font-size: 16px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+}
+.manager_add > .panel > form > .form > .input > select {
+	width: 100%;
+    height: 50px;
+	font-size: 16px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #CECECE;
+	border-radius: 5px;
+}
+.manager_add > .panel > form > .form > .button {
+    width: 100%;
+	border-radius: 3px;
+    padding: 15px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    color: #fff;
+    background-color: #00796B;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.manager_add > .panel > .notif {
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    .manager_add {
+        height: 720px;
+    }
+    .manager_add > .panel {
+        width: 900px;
+        left: 50%;
+        margin-left: -450px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .manager_add > .panel {
+        width: 700px;
+        left: 50%;
+        margin-left: -350px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .manager_add {
+        height: 800px;
+    }
+    .manager_add > .panel {
+        width: 90%;
+        left: 0px;
+        margin-left: 5%;
+    }
+}

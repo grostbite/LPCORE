@@ -1,0 +1,812 @@
+/****************************************************
+
+        Development by wencms@gmail.com
+
+****************************************************/
+
+/**** header 1 ****/
+
+.header-1 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 600px;
+    
+    background-color: #000;
+    
+    background-image: url(1/header.jpg);
+    
+    background-size: cover;
+    
+    color: #fff;
+    
+}
+
+.header-1 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.3;
+    
+}
+
+.header-1 > .logo {
+    
+    position: relative;
+    
+    font-size: 30px;
+    
+    padding: 40px;
+    
+    z-index: 1;
+    
+}
+
+.header-1 > .title {
+    
+    margin-top: 90px;
+    
+    position: relative;
+    
+    left: 10%;
+    
+    width: 80%;
+    
+    text-align: center;
+    
+    font-size: 40px;
+    
+    z-index: 1;
+    
+}
+
+.header-1 > .button {
+    
+    margin-top: 90px;
+    
+    position: relative;
+    
+    left: 50%;
+    
+    margin-left: -150px;
+    
+    width: 300px;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+    text-align: center;
+    
+    z-index: 1;
+    
+    background-color: #fff;
+    
+    cursor: pointer;
+    
+    color: #000;
+    
+}
+
+.header-1 > .button:hover {
+    
+    background-color: #EFEFEF;
+    
+}
+
+
+/**** header 2 ****/
+
+.header-2 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 600px;
+    
+    background-color: #000;
+    
+    background-image: url(2/header.jpg);
+    
+    background-size: cover;
+    
+    color: #fff;
+    
+}
+
+.header-2 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.5;
+    
+}
+
+.header-2 > .logo {
+    
+    position: relative;
+    
+    font-size: 30px;
+    
+    padding: 40px;
+    
+    z-index: 1;
+    
+}
+
+.header-2 > .phone {
+    
+    position: absolute;
+    
+    top: 40px;
+    
+    right: 280px;
+    
+    font-size: 30px;
+    
+    z-index: 1;
+    
+}
+
+.header-2 > .button {
+    
+    position: absolute;
+    
+    top: 30px;
+    
+    right: 40px;
+    
+    width: 200px;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+    text-align: center;
+    
+    z-index: 1;
+    
+    background-color: #fff;
+    
+    cursor: pointer;
+    
+    color: #000;
+    
+}
+
+.header-2 > .button:hover {
+    
+    background-color: #EFEFEF;
+    
+}
+
+.header-2 > .title {
+    
+    margin-top: 140px;
+    
+    position: relative;
+    
+    left: 10%;
+    
+    width: 80%;
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    z-index: 1;
+    
+}
+
+/**** header 3 ****/
+
+.header-3 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 600px;
+    
+    background-color: #000;
+    
+    background-image: url(3/header.jpg);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    color: #fff;
+    
+}
+
+.header-3 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.5;
+    
+}
+
+.header-3 > .logo {
+    
+    position: relative;
+    
+    font-size: 30px;
+    
+    padding: 40px;
+    
+    z-index: 1;
+    
+}
+
+.header-3 > .menu {
+    
+    position: absolute;
+    
+    top: 40px;
+    
+    right: 40px;
+    
+    width: auto;
+    
+    height: 50px;
+    
+    z-index: 1;
+    
+}
+
+.header-3 > .menu > .item {
+    
+    float: right;
+    
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    
+    padding-left: 20px;
+    
+    padding-right: 20px;
+    
+    color: #fff;
+    
+    font-size: 18px;
+    
+    cursor: pointer;
+    
+}
+
+.header-3 > .menu > .item:hover {
+    
+    background-color: #fff;
+    
+    color: #000;
+    
+}
+
+.header-3 > .title {
+    
+    margin-top: 150px;
+    
+    position: relative;
+    
+    left: 10%;
+    
+    width: 80%;
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+    z-index: 1;
+    
+}
+
+/**** header 4 ****/
+
+.header-4 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 700px;
+    
+    background-color: #000;
+    
+    background-image: url(4/header.jpg);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    color: #fff;
+    
+}
+
+.header-4 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.5;
+    
+}
+
+.header-4 > .logo {
+    
+    position: relative;
+    
+    font-size: 30px;
+    
+    padding: 40px;
+    
+    z-index: 1;
+    
+}
+
+.header-4 > .title {
+    
+    position: relative;
+    
+    margin-top: 140px;
+    
+    left: 50%;
+    
+    font-size: 20px;
+    
+    width: 700px;
+    
+    margin-left: -570px;
+    
+    text-align: center;
+    
+}
+
+.header-4 > .form {
+    
+    position: absolute;
+    
+    top: 100px;
+    
+    right: 80px;
+    
+    width: 350px;
+    
+    height: 500px;
+    
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    
+}
+
+.header-4 > .form > .name {
+    
+    position: relative;
+    
+    padding-top: 30px;
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    font-size: 25px;
+    
+    color: #000;
+    
+}
+
+.header-4 > .form > .input {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 100px;
+    
+    margin-top: 20px;
+    
+}
+
+.header-4 > .form > .input > .label {
+    
+    padding-top: 10px;
+    
+    padding-left: 15px;
+    
+    font-size: 16px;
+    
+    color: #000;
+    
+}
+
+.header-4 > .form > .input > input {
+    
+    margin-top: 10px;
+    
+    margin-left: 15px;
+    
+    width: 320px;
+    
+    height: 40px;
+    
+    padding-left: 10px;
+    
+    font-size: 16px;
+    
+    border: 0px;
+    
+    background-color: #EAEAEA;
+    
+    border-radius: 5px;
+    
+}
+
+.header-4 > .form > .input > select {
+    
+    margin-top: 10px;
+    
+    margin-left: 15px;
+    
+    width: 320px;
+    
+    height: 40px;
+    
+    padding-left: 10px;
+    
+    font-size: 16px;
+    
+    border: 0px;
+    
+    background-color: #EAEAEA;
+    
+    border-radius: 5px;
+    
+}
+
+.header-4 > .form > .button {
+    
+    position: relative;
+    
+    margin-top: 5px;
+    
+    text-align: center;
+    
+    width: 300px;
+    
+    margin-left: 25px;
+    
+    background-color: #00AF11;
+    
+    border-radius: 10px;
+    
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    
+    font-size: 20px;
+    
+    cursor: pointer;
+    
+}
+
+.header-4 > .form > .button:hover {
+    
+    opacity: 0.8;
+    
+}
+
+/**** header 5 ****/
+
+.header-5 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 600px;
+    
+    background-color: #000;
+    
+    background-image: url(5/header.jpg);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    color: #fff;
+    
+}
+
+.header-5 > .logoimg {
+    
+    margin-top: 40px;
+    
+    position: absolute;
+    
+    left: 50%;
+    
+    width: 180px;
+    
+    height: 180px;
+    
+    margin-left: -90px;
+    
+    background-image: url(5/logo.png);
+    
+    background-size: cover;
+    
+}
+
+.header-5 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.3;
+    
+}
+
+.header-5 > .phone {
+    
+    position: relative;
+    
+    font-size: 30px;
+    
+    padding-top: 40px;
+    
+    margin-left: 100px;
+    
+    z-index: 1;
+    
+}
+
+.header-5 > .phone > .subtitle {
+    
+    position: relative;
+    
+    font-size: 18px;
+    
+}
+
+.header-5 > .button {
+    
+    position: absolute;
+    
+    top: 50px;
+    
+    right: 40px;
+    
+    padding-left: 40px;
+    
+    padding-right: 40px;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+    z-index: 1;
+    
+    border: 2px;
+    
+    border-style: solid;
+    
+    border-color: #fff;
+    
+    cursor: pointer;
+    
+    color: #fff;
+    
+    font-size: 20px;
+    
+}
+
+.header-5 > .button:hover {
+    
+    background-color: #fff;
+    
+    color: #000;
+    
+}
+
+.header-5 > .title {
+    
+    margin-top: 150px;
+    
+    margin-left: 10%;
+    
+    margin-right: 10%;
+    
+    position: relative;
+    
+    padding-top: 30px;
+    
+    padding-bottom: 30px;
+    
+    padding-left: 80px;
+    
+    padding-right: 80px;
+    
+    border: 2px;
+    
+    border-style: solid;
+    
+    border-color: #fff;
+    
+    text-align: center;
+    
+    font-size: 30px;
+    
+}
+
+/**** header 6 ****/
+
+.header-6 {
+    
+    position: relative;
+    
+    width: 100%;
+    
+    height: 600px;
+    
+    background-color: #000;
+    
+    background-image: url(6/header.jpg);
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    color: #fff;
+    
+}
+
+.header-6 > .filter {
+    
+    position: absolute;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background-color: #212121;
+    
+    opacity: 0.2;
+    
+}
+
+.header-6 > .logoimg {
+    
+    position: absolute;
+    
+    margin-top: 40px;
+    
+    margin-left: 40px;
+    
+    width: 250px;
+    
+    height: 80px;
+    
+    background-image: url(6/logo.png);
+    
+    background-size: cover;
+    
+}
+
+.header-6 > .phone {
+    
+    position: absolute;
+    
+    top: 60px;
+    
+    right: 40px;
+    
+    color: #fff;
+    
+    font-size: 30px;
+    
+}
+
+.header-6 > .title {
+    
+    position: relative;
+    
+    top: 200px;
+    
+    width: 50%;
+    
+    left: 25%;
+    
+    text-align: center;
+    
+    font-size: 40px;
+    
+}
+
+.header-6 > .title > .subtitle {
+    
+    margin-top: 40px;
+    
+    position: relative;
+    
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    
+    text-align: center;
+    
+    font-size: 28px;
+    
+    color: #fff;
+    
+    border: 2px;
+    
+    border-style: solid;
+    
+    border-color: #fff;
+    
+}
+
+.header-6 > .button {
+    
+    position: absolute;
+    
+    left: 50%;
+    
+    margin-left: -125px;
+    
+    bottom: 80px;
+    
+    width: 250px;
+    
+    color: #000;
+    
+    background-color: #fff;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+    text-align: center;
+    
+    cursor: pointer;
+    
+}
+
+.header-6 > .button:hover {
+    
+    background-color: #efefef;
+    
+}
